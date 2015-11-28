@@ -2,6 +2,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<script type="text/javascript" src="js/app.js"></script>
 </head>
 <body>
 	@section('header')
