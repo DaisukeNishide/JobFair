@@ -3,3 +3,8 @@
 Homestead.yaml
 Homestead.json
 .env
+
+# Add static files to .gitignore.
+/public/fonts
+/public/js
+/public/css
