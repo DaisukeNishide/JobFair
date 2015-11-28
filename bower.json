@@ -1,0 +1,21 @@
+{
+  "name": "JobFair",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Daisuke Nishide <d.nishide0125@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/knife0125-second/JobFair",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.6"
+  }
+}
