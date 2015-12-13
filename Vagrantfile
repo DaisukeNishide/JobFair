@@ -127,13 +127,13 @@ Vagrant.configure(2) do |config|
     npm install -g bower
 
     # setting up virtualhost to the server.
-    touch /etc/httpd/conf.d/laravel.dev.conf
-    cat << 'EOF' > /etc/httpd/conf.d/laravel.dev.conf
+    touch /etc/httpd/conf.d/job-fair.dev.conf
+    cat << 'EOF' > /etc/httpd/conf.d/job-fair.dev.conf
 <VirtualHost *:80>
-    ServerName laravel.dev
+    ServerName job-fair.dev
     DocumentRoot /var/httpdStore/public
-    CustomLog   logs/laravel.dev-access_log combined
-    ErrorLog    logs/laravel.dev-error_log
+    CustomLog   logs/job-fair.dev-access_log combined
+    ErrorLog    logs/job-fair.dev-error_log
 
     <Directory "/var/httpdStore/public">
         Options Indexes FollowSymLinks
