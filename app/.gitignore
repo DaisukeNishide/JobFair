@@ -1,8 +1,9 @@
-/vendor
-/node_modules
+vendor
+node_modules
 Homestead.yaml
 Homestead.json
 .env
+composer.lock
 
 # Add static files to .gitignore.
 /public/fonts
