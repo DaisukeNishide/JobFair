@@ -1,12 +1,12 @@
 {
   "name": "JobFair",
-  "description": "",
+  "description": "JobFair",
   "main": "",
   "authors": [
-    "Daisuke Nishide <d.nishide0125@gmail.com>"
+    "Daisuke Nishide <daisuke.nishide@job-fair.asia>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/knife0125-second/JobFair",
+  "homepage": "http://job-fair.asia",
   "moduleType": [],
   "ignore": [
     "**/.*",
@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-sass": "bootstrap-sass-official#~3.3.6"
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.6",
+    "font-awesome": "fontawesome#~4.5.0"
   }
 }
