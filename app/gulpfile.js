@@ -27,4 +27,7 @@ elixir(function(mix) {
 		paths.jquery + "dist/jquery.js",
 		paths.bootstrap + "javascripts/bootstrap.js"
     ], 'public/js/app.js', './');
+
+    mix.version('css/app.css');
+
 });
