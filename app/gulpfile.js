@@ -28,6 +28,6 @@ elixir(function(mix) {
 		paths.bootstrap + "javascripts/bootstrap.js"
     ], 'public/js/app.js', './');
 
-    mix.version('css/app.css');
+    mix.version(['css/app.css', 'js/app.js']);
 
 });
