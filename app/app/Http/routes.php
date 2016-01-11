@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'JobsController@index');
+
+Route::get('users/{user_id}', 'UserProfilesContolloer@index');
