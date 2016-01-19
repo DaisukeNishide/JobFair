@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'JobsController@index');
+
+Route::get('jobs/{job_id}', 'EachJobsController@index');
